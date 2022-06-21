@@ -29,6 +29,10 @@ body {
 }
           /* header end */
 
+          .content{
+              display: flex;
+              flex-direction: column;
+          }
          /* Hero start */
 .hero {
     display: flex;
@@ -75,3 +79,36 @@ width: 158px;
     font-weight: 900;
 
 }
+       /* info section */
+       .info {padding: 30px;
+
+
+       }
+       .info h1 {
+        font-size: 36px;
+        text-align: center;
+        color: #1F2937;
+        font-weight: 900;
+       }
+       .info .cards {
+        display: flex;
+        justify-content: center;
+        gap: 65px;
+        margin-top: 40px;
+       }
+       .card-image {
+        width: 148px;
+        height: 126px;
+        border-radius: 10px;
+        border-color: #3882F6;
+        border-style: solid;
+      }
+       
+       .info .card {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        text-align: center;
+
+      }
+       
