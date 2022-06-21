@@ -4,6 +4,7 @@ body {
     flex-direction: column;
 
 }
+          /* header start */
 .header {
     background-color: #1F2937;
     display: flex;
@@ -24,5 +25,53 @@ body {
 .header h1{
     font-size: 24px;
     color: #f9faf8;
+
+}
+          /* header end */
+
+         /* Hero start */
+.hero {
+    display: flex;
+    padding: 70px 137px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+.hero .text{
+    /* display: flex;
+    flex-direction: column; */
+    width: 548px;
+}
+.hero .image {
+    display: flex;
+justify-content: center;
+align-items: center;
+background-color: dimgray;
+padding: 20px;
+height: 150px;
+width: 453px;
+color: #f9faf8;
+margin-left: -219px;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+.hero p {
+    font-size: 18px;
+    color:#E5E7EB;
+    width: 445px;
+}
+.hero button {
+    padding: 10px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-size: 16px;
+width: 158px;
+    flex-grow: 0;
+    border-radius: 10px;
+    border-color: #3882F6;
+    font-weight: 900;
 
 }
