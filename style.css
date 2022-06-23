@@ -134,6 +134,40 @@ width: 158px;
         font-weight: bold;
         font-size: 16px;
       }
-      
       /* quote section done*/
-       
+
+      /* call to action start */
+ .call-to-action {
+   
+    margin: 100px auto;
+    
+ }
+ .action-text{
+     color: #E5E7EB
+ }
+ .action-text h1 {
+     margin: 0;
+ }
+ .action-text p {
+     margin-top: 5px;
+ }
+ .action-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 200px;
+    border-radius: 10px;
+ }
+ .action-container button{
+    height: 40px;
+    width: 135px;
+    background-color: #3882F6;
+    color: white;
+    border: 3px white solid;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 800;
+ }
+       /* call to action end */
