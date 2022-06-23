@@ -111,4 +111,29 @@ width: 158px;
         text-align: center;
 
       }
+      /* info section done */
+
+      /* quote section */
+      .quotes{
+        background-color: #E5E7EB;
+        padding: 212px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+     
+          
+      }
+      .quote {
+        font-size: 36px;
+        font-weight: 306;
+      }
+      .author{
+        margin-left: 1082px;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      
+      /* quote section done*/
        
